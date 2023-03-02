@@ -1,0 +1,12 @@
+.bgdark {
+    /* background-image: url("../images/bg4.jpg"); */
+    background-color: black;
+    background-size: cover;
+    
+}
+
+.imgInicial {
+    max-width: 40px;
+    max-height: 40px;
+}
+

@@ -1,0 +1,16 @@
+.skillsImg {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    flex-wrap: wrap;
+}
+
+.a {
+    background-image: linear-gradient(to right, red, blue)
+  }

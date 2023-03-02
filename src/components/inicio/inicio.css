@@ -1,0 +1,18 @@
+.perfil-img {
+    width: 16em;
+    border-radius: 57% 23% 33% 56% / 26% 55% 31% 66%;
+    
+}
+
+
+.imagemContato {
+    max-width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.imagemContato:hover {
+    background-image: linear-gradient(to right, red, blue);
+}
+
+
