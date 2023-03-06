@@ -2,7 +2,7 @@
     /* background-image: url("../images/bg4.jpg"); */
     background-color: black;
     background-size: cover;
-    
+    overflow-x: hidden;
 }
 
 .imgInicial {

@@ -1,33 +1,26 @@
-.fullscreen-modal .modal-dialog {
-    margin: 0;
-    width: 40%;
-    height: 100%;
-    min-height: 100%;
-  }
-  
-  .fullscreen-modal .modal-content {
-    height: 100%;
-    border-radius: 0;
-  }
-
-.modalHeaderBg {
-    background-color: rgb(0, 0, 0) !important;
-    
-}
-
-.modalBodyBg {
-    background-color: rgb(0, 0, 0, 0.90);
-  }
 
 .bgdiv {
   background-color: rgba(0, 0, 0, 0.0) !important;
   border: none !important;
 }
 
-.bgOff {
-  opacity: 0.8;
+#modal {
+  background-color: rgba(28, 31, 192, 0.255);
+  width: 150px;
+  right: 0;
+  display: flex;
+  height: 40vh;
+  z-index: 99999;
+  position: fixed;
+  overflow-y: auto;
+  
 }
 
+.buttonClose {
+  background-color: transparent;
+  border: none;
+
+}
 
 
 .aa {

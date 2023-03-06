@@ -11,12 +11,12 @@ class Inicio extends React.Component {
   
   render() {
       return (
-        <section id="inicio" className="d-md-flex vh-100 justify-content-md-around m-auto container-lg iniciobg font-monospace">
+        <section id="inicio" className="d-md-flex py-sm-5 min-vh-100 w-75 m-auto justify-content-md-around font-monospace">
             
 
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="d-flex justify-content-center my-5 py-2 align-items-center">
                 <img src={profileImg} 
-                    className="perfil-img d-flex w-50 justify-content-center "
+                    className="perfil-img d-flex w-75 justify-content-center "
                     alt="img-perfil"
                     data-aos="flip-left"
                     data-aos-duration="1500"/>
@@ -24,14 +24,14 @@ class Inicio extends React.Component {
             
             <div className="d-flex flex-column justify-content-evenly mx-5">
                 <div className="d-flex flex-column justify-content-evenly h-25 text-start">
-                    <h1 className="mt-5">Olá, me chamo <span>Caio Pereira</span></h1>
+                    <h1 className="">Olá, me chamo <span className='text-info'>Caio Pereira</span></h1>
                     <h3 className="fw-semibold font-monospace d-inline">Desenvolverdor Web
                         <Typewriter
                           options={{
                               strings: ['Full-stack', 'Back-end', 'Front-end'],
                               autoStart: true,
                               loop: true,
-                              wrapperClassName: "text-danger"
+                              wrapperClassName: "text-info"
                             }}
                             />
                     </h3>

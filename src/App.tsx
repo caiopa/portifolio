@@ -4,7 +4,7 @@ import Perfil from './pages/perfil';
 
 function App() {
   return (
-    <main className="vw-100 vh-100 bg-dark text-white">
+    <main className="vh-100 text-white">
       <Perfil />
     </main>
   );

@@ -14,16 +14,15 @@ import Footer from '../components/footer/footer';
 class Perfil extends React.Component {
   render() {
       return (
-
-            <div className="bgdark">
+            <div className="bgdark container-fluid">
                 <Header/>
                 <Inicio />
                 <SobreMim />
                 <Skills />
                 <Projetos />
-                <div  data-aos="fade-up-left"   className="fixed-bottom d-flex d-flex     scrollspy-example justify-content-end m-5"
+                <div  data-aos="fade-up-left" className="fixed-bottom d-flex scrollspy-example justify-content-end m-5"
                 data-bs-spy="scroll"    data-bs-target="#simple-list-example"  data-bs-offset="0" data-bs-smooth-scroll="true">
-                    <a href="#inicio" ><img src={inicioImg}     className="imgInicial" alt=""></img></a>
+                    <a href="#" ><img src={inicioImg} className="imgInicial" alt=""></img></a>
                 </div>
                 <Footer />
             </div>

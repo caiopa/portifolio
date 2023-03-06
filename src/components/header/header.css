@@ -18,13 +18,7 @@ p, h1, h2 {
   transform: translateY(-10px);
 }
 
-.backgroundBlack {
-  background-color: black;
-
-}
-
 .borderHeader {
-    min-height: 70px;
     background-image: linear-gradient(to right, blue, red, blue);
     background-position: bottom;
     background-size: 95% 3px ;
@@ -32,6 +26,11 @@ p, h1, h2 {
 
 }
 
+header {
+  background-color: black;
+  z-index: 1;
+  height: 50px;
+}
 
 .imageAvatar {
   max-width: 40px;
