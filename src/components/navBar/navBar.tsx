@@ -45,7 +45,7 @@ verifyModal() {
     const { showModal } = this.state
       return (
         <div>
-          <nav className=" d-none d-lg-flex navbar-expand-sm">
+          <nav  className=" d-none d-lg-flex navbar-expand-sm">
            <ul className="nav">
               <li className="nav-item">
                 <a href="#sobreMim" className="aa changeColor ms-3 text-danger fs-5 text-decoration-none nav-link">Sobre mim</a>
@@ -63,7 +63,7 @@ verifyModal() {
           {
             showModal && 
             (
-              <div id="modal" className='dialog d-flex flex-column justify-content-between'> 
+              <div data-aos="zoom-out-down" id="modal" className='dialog d-flex flex-column justify-content-between'> 
                 <nav className='mt-3 d-flex flex-column'>
                    <a className="aa fs-5" href="#inicio" >Inicio</a>
                    <a className="aa fs-5" href="#sobreMim" >Sobre mim</a>
