@@ -4,6 +4,7 @@ import "../navBar/navBar.css"
 import menuImg from "../../images/menu.png"
 import menuCloseImg from "../../images/x2.png"
 import  'bootstrap'
+import imgFechar from "../../images/fechar3.png"
 
 
 interface showModal {
@@ -72,7 +73,7 @@ verifyModal() {
                    </a>
                 </nav>
                 <footer className="w-100 d-flex justify-content-center">
-                  <button type="button" onClick={this.handleCloseModal} className="buttonClose w-100 text-white">Fechar</button>
+                  <button type="button" onClick={this.handleCloseModal} className="buttonClose w-100 text-white"><img src={imgFechar}alt="img fechar"></img></button>
                 </footer>
                </div>
  )
