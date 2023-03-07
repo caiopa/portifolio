@@ -12,7 +12,7 @@ class Projetos extends React.Component {
   render() {
       return (
         <section id="projetos" className="text-center w-75 m-auto">
-          <h3 data-aos="fade-up" className="my-5 a fs-2 text">Projetos</h3>
+          <h3 data-aos="fade-up" className="my-5 a fs-2">Projetos</h3>
           <div className="d-flex flex-column w-75 m-auto ">
           <Nav.Link href="https://github.com/caiopa/AppDelivery" target="_blank" >
             <motion.div className="card mb-3 bg-black fs-5" whileHover={{ scale: 1.05 }}

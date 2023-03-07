@@ -1,7 +1,14 @@
 #footer {
-    color: white
+    height: 70px;
+
 }
 
-.a {
-    background-image: linear-gradient(to right, red, blue)
-  }
+.borderFooter {
+    background-image: linear-gradient(to right, blue, red, blue);
+    background-position: top;
+    background-size: 95% 3px ;
+    background-repeat: no-repeat;
+}
+/* .a { */
+/*     background-image: linear-gradient(to right, red, blue) */
+/*   } */

@@ -20,7 +20,7 @@ class Skills extends React.Component {
   render() {
       return (
         <section id="skills" className="w-75 m-auto d-flex flex-column justify-content-evenly" >
-            <h3 className="a fs-2 text text-center my-5" data-aos="fade-up" data-aos-duration="1500"> Skills </h3>
+            <h3 className="a fs-2 text-center my-5" data-aos="fade-up" data-aos-duration="1500"> Skills </h3>
             <ul className="d-flex align-items-center w-100 m-auto justify-content-evenly align-content-center ">
                 <li><img src={cssImg} className="skillsImg " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" alt="cssImg" /></li>
                 <li><img src={tsImg} data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" className="skillsImg" alt="tsImg" /></li>

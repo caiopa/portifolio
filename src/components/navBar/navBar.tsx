@@ -47,7 +47,7 @@ verifyModal() {
           <nav className=" d-none d-lg-flex navbar-expand-sm">
            <ul className="nav">
               <li className="nav-item">
-                <a href="#sobreMim" className="aa changeColor btn btn-2 ms-3 text-danger fs-5 text-decoration-none nav-link">Sobre mim</a>
+                <a href="#sobreMim" className="aa changeColor ms-3 text-danger fs-5 text-decoration-none nav-link">Sobre mim</a>
               </li>
               <li className="nav-item">
                 <a href="#skills" className="nav-link aa changeColor mx-3 fs-5 text-danger text-decoration-none">Skills</a>
@@ -62,7 +62,7 @@ verifyModal() {
           {
             showModal && 
             (
-              <div id="modal" className='modaal d-flex flex-column justify-content-between'> 
+              <div id="modal" className='dialog d-flex flex-column justify-content-between'> 
                 <nav className='mt-3 d-flex flex-column'>
                    <a className="aa fs-5" href="#inicio" >Inicio</a>
                    <a className="aa fs-5" href="#sobreMim" >Sobre mim</a>

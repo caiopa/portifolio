@@ -13,7 +13,6 @@ class Header extends React.Component {
   
 
   render() {
-    AOS.init()
       return (
          <header id="headerProfile" className="fs-5 w-100 fixed-top d-flex m-auto justify-content-around align-items-center header-h borderHeader "
           > 
