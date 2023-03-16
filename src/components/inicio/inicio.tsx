@@ -16,7 +16,7 @@ class Inicio extends React.Component {
 
             <div className="d-flex justify-content-center my-5 py-2 align-items-center">
                 <img src={profileImg} 
-                    className="perfil-img d-flex h-50 justify-content-center "
+                    className="perfil-img d-flex justify-content-center "
                     alt="img-perfil"
                     data-aos="flip-left"
                     data-aos-duration="1500"/>

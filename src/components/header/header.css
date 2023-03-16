@@ -1,11 +1,5 @@
-
-
 .align-center {
     text-align: center;
-}
-
-p, h1, h2 { 
-    color: #ffffff
 }
 
 
@@ -21,13 +15,12 @@ p, h1, h2 {
 .borderHeader {
     background-image: linear-gradient(to right, blue, red, blue);
     background-position: bottom;
-    background-size: 95% 3px ;
+    background-size: 100% 3px ;
     background-repeat: no-repeat;
 
 }
 
 header {
-  background-color: black;
   z-index: 1;
   height: 50px;
 }

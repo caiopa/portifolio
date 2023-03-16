@@ -14,7 +14,7 @@ class Header extends React.Component {
 
   render() {
       return (
-         <header id="headerProfile" className="fs-5 w-100 fixed-top d-flex m-auto justify-content-around align-items-center header-h borderHeader "
+         <header id="headerProfile" className="fs-5 w-100  bg-dark fixed-top d-flex m-auto justify-content-around align-items-center header-h borderHeader "
           > 
            <div className="fw-bold" data-aos="">
             <span className="letter">B</span>

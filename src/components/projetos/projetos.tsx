@@ -15,17 +15,17 @@ class Projetos extends React.Component {
           <h3 data-aos="fade-up" className="my-5 a fs-2">Projetos</h3>
           <div className="d-flex flex-column w-75 m-auto ">
           <Nav.Link href="https://github.com/caiopa/AppDelivery" target="_blank" >
-            <motion.div className="card mb-3 bg-black fs-5" whileHover={{ scale: 1.05 }}
+            <motion.div className="card mb-3 bg-dark fs-5" whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }} >
-                <div className="row no-gutters bg-black" data-aos="fade-right"
+                <div className="row no-gutters bg-dark" data-aos="fade-right"
                    >
-                  <div className="col-md-4 col-sm ">
-                    <img src={deliveryImg} className="card-img img-fluid rounded same-size-img" alt="..."/>
+                  <div className="col-md-4 col-sm m-auto">
+                    <img src={deliveryImg} className="card-img img-fluid  same-size-img" alt="..."/>
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
                       <h5 className="card-title">Delivery</h5>
-                      <p className="card-text">Pagina de cadastro e controle de vendas e entrega para uma delivery</p>
+                      <p className="card-text">Pagina de cadastro e controle de vendas/entrega de uma delivery</p>
                       <p className='a'> Tecnologias: Reactjs, Nodejs, Context,Express, MySQL </p>
                     </div>
                   </div>
@@ -33,10 +33,10 @@ class Projetos extends React.Component {
              </motion.div>
           </Nav.Link>
           <Nav.Link href="https://github.com/caiopa/AppReceitas" target="_blank">
-            <motion.div className="card mb-3 bg-black fs-5"  whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} >
-               <div className="row no-gutters bg-black" data-aos="fade-left">
-                 <div className="col-md-4">
-                   <img src={receitasImg} className="card-img img-fluid rounded same-size-img" alt="..."/>
+            <motion.div className="card mb-3 bg-dark fs-5"  whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} >
+               <div className="row no-gutters bg-dark" data-aos="fade-left">
+                 <div className="col-md-4 m-auto">
+                   <img src={receitasImg} className="card-img img-fluid  same-size-img" alt="..."/>
                  </div>
                  <div className="col-md-8">
                    <div className="card-body">
@@ -50,11 +50,11 @@ class Projetos extends React.Component {
             </motion.div>
           </Nav.Link>
           <Nav.Link href="https://github.com/caiopa/ProjetoGrupoTrivia" target="_blank">
-            <motion.div className="card mb-3 bg-black fs-5" whileHover={{ scale: 1.05 }}
+            <motion.div className="card mb-3 bg-dark fs-5" whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }} >
-               <div className="row no-gutters bg-black"  data-aos="fade-right"    >
-                 <div className="col-md-4">
-                   <img src={triviaImg} className="card-img img-fluid rounded same-size-img" alt="..."/>
+               <div className="row no-gutters bg-dark"  data-aos="fade-right"    >
+                 <div className="col-md-4 m-auto">
+                   <img src={triviaImg} className="card-img img-fluid  same-size-img" alt="..."/>
                  </div>
                  <div className="col-md-8">
                    <div className="card-body">
@@ -66,30 +66,29 @@ class Projetos extends React.Component {
                </div>
             </motion.div>
           </Nav.Link>
-          <Nav.Link href="https://github.com/caiopa" target="_blank">
-            <motion.div className="card mb-3 bg-black fs-5" whileHover={{ scale: 1.05 }}
+          <Nav.Link href="https://github.com/caiopa/beatMusic" target="_blank">
+            <motion.div className="card mb-3 bg-dark fs-5" whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}>
-               <div className="row no-gutters bg-black" data-aos="fade-left">
-                 <div className="col-md-4">
-                   <img src={musicIcon} className="card-img img-fluid rounded same-size-img" alt="..."/>
+               <div className="row no-gutters bg-dark" data-aos="fade-left">
+                 <div className="col-md-4 m-auto">
+                   <img src={musicIcon} className="card-img img-fluid  same-size-img" alt="..."/>
                  </div>
                  <div className="col-md-8 img-fluid">
                    <div className="card-body">
-                     <h5 className="card-title">Trybe Tunes</h5>
-                     <p className="card-text">Pagina de pesquisa de musica com o objetivo de acessar uma API externda do Itunes usando React, JS 
-                      </p>
-                      <p className='a'> Tecnologias: Reactjs, JS </p>
+                     <h5 className="card-title">BeatMusic</h5>
+                     <p className="card-text">Pagina de pesquisa de musica com o objetivo de acessar uma API externda do Itunes, favoritar as musicas </p>
+                      <p className='a'> Tecnologias: Reactjs, JS, react router,tailwindcss </p>
                    </div>
                  </div>
                </div>
             </motion.div>
           </Nav.Link>
           <Nav.Link href="https://github.com/caiopa" target="_blank">
-            <motion.div className="card mb-3 bg-black fs-5" whileHover={{ scale: 1.05 }}
+            <motion.div className="card mb-3 bg-dark fs-5" whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}>
-              <div className="row no-gutters bg-black" data-aos="fade-right" >
-               <div className="col-md-4 img-fluid">
-                 <img src={githubImg} className="card-img h-100 img-fluid rounded same-size-img" alt=".." />
+              <div className="row no-gutters bg-dark" data-aos="fade-right" >
+               <div className="col-md-4 img-fluid m-auto">
+                 <img src={githubImg} className="card-img h-100 img-fluid  same-size-img" alt=".." />
                </div>
                <div className="col-md-8 ">
                  <div className="card-body">

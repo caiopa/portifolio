@@ -6,9 +6,6 @@
 .borderFooter {
     background-image: linear-gradient(to right, blue, red, blue);
     background-position: top;
-    background-size: 95% 3px ;
+    background-size: 100% 3px ;
     background-repeat: no-repeat;
 }
-/* .a { */
-/*     background-image: linear-gradient(to right, red, blue) */
-/*   } */
