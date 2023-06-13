@@ -25,7 +25,7 @@ class Inicio extends React.Component {
             <div className="d-flex flex-column justify-content-evenly mx-5">
                 <div className="d-flex flex-column justify-content-evenly h-25 text-start">
                     <h2 className="">Olá, me chamo <span className=' text text-info '>Caio Pereira</span></h2>
-                    <h3 className="fw-semibold font-monospace d-inline">Desenvolverdor Web
+                    <h3 className="fw-semibold font-monospace d-inline">Desenvolvedor Web
                         <Typewriter
                           options={{
                               strings: ['Full-stack', 'Back-end', 'Front-end'],
