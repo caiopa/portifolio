@@ -6,6 +6,6 @@
 .borderFooter {
     background-image: linear-gradient(to right, cyan, white, cyan);
     background-position: top;
-    background-size: 100% 3px ;
+    background-size: 100% 1px ;
     background-repeat: no-repeat;
 }

@@ -48,13 +48,13 @@ verifyModal() {
           <nav  className=" d-none d-lg-flex navbar-expand-sm">
            <ul className="nav">
               <li className="nav-item">
-                <a href="#sobreMim" className="ms-3 text text-info fs-5 text-decoration-none nav-link">Sobre mim</a>
+                <a href="#sobreMim" className="ms-3 hover text text-white fs-5 text-decoration-none nav-link">Sobre mim</a>
               </li>
               <li className="nav-item">
-                <a href="#skills" className="nav-link mx-3 fs-5 text text-info text-decoration-none">Skills</a>
+                <a href="#skills" className="nav-link hover mx-3 fs-5 text text-white text-decoration-none">Skills</a>
               </li>
               <li className="nav-item">
-                <a href="#projetos" className="nav-link text text-info fs-5 text-decoration-non">Projetos</a>
+                <a href="#projetos" className="nav-link hover text text-white fs-5 text-decoration-non">Projetos</a>
               </li>
             </ul> 
           </nav>

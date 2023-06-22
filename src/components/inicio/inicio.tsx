@@ -14,7 +14,7 @@ class Inicio extends React.Component {
         <section id="inicio" className="d-md-flex py-sm-5 min-vh-100 w-75 m-auto justify-content-md-around font-monospace">
             
 
-            <div className="d-flex justify-content-center my-5 py-2 align-items-center">
+            <div className="d-flex justify-content-center my-5 py-5 align-items-center">
                 <img src={profileImg} 
                     className="perfil-img d-flex justify-content-center "
                     alt="img-perfil"
@@ -24,7 +24,7 @@ class Inicio extends React.Component {
             
             <div className="d-flex flex-column justify-content-evenly mx-5">
                 <div className="d-flex flex-column justify-content-evenly h-25 text-start">
-                    <h2 className="">Olá, me chamo <span className='text text-info'>Caio Pereira</span></h2>
+                    <h2 className="">Olá, me chamo <span className='text text-info '>Caio Pereira</span></h2>
                     <h3 className="fw-semibold font-monospace d-inline">Desenvolvedor Web
                         <Typewriter
                           options={{
