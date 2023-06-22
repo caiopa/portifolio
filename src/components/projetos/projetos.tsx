@@ -15,7 +15,7 @@ class Projetos extends React.Component {
           <h3 data-aos="fade-up" className="my-5 a fs-2">Projetos</h3>
           <div className="d-flex flex-column w-75 m-auto ">
           <Nav.Link href="https://github.com/caiopa/AppDelivery" target="_blank" >
-            <motion.div className="card mb-3 bg-dark fs-5" whileHover={{ scale: 1.05 }}
+            <motion.div className="card mb-3 bg-dark border-0 fs-5" whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }} >
                 <div className="row no-gutters bg-dark" data-aos="fade-right"
                    >
@@ -25,15 +25,15 @@ class Projetos extends React.Component {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h5 className="card-title">Delivery</h5>
-                      <p className="card-text">Pagina de cadastro e controle de vendas/entrega de uma delivery</p>
-                      <p className='a'> Tecnologias: Reactjs, Nodejs, Context,Express, MySQL </p>
+                      <p className="card-text">Pagina de cadastro e controle de vendas e entrega de uma delivery</p>
+                      <p className='a'> Tecnologias: Reactjs, Nodejs, Context, Express, MySQL </p>
                     </div>
                   </div>
                 </div>
              </motion.div>
           </Nav.Link>
           <Nav.Link href="https://github.com/caiopa/AppReceitas" target="_blank">
-            <motion.div className="card mb-3 bg-dark fs-5"  whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} >
+            <motion.div className="card mb-3 bg-dark fs-5 border-0"  whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} >
                <div className="row no-gutters bg-dark" data-aos="fade-left">
                  <div className="col-md-4 m-auto">
                    <img src={receitasImg} className="card-img img-fluid  same-size-img" alt="..."/>
@@ -43,14 +43,14 @@ class Projetos extends React.Component {
                      <h5 className="card-title">Receitas</h5>
                      <p className="card-text">Pagina de receitas, objetivo de consumir duas API externas.
                       </p>
-                      <p className='a'> Tecnologias: Reactjs, JS, CSS,Context </p>
+                      <p className='a'> Tecnologias: Reactjs, JS, CSS, Context </p>
                    </div>
                  </div>
                </div>
             </motion.div>
           </Nav.Link>
           <Nav.Link href="https://github.com/caiopa/ProjetoGrupoTrivia" target="_blank">
-            <motion.div className="card mb-3 bg-dark fs-5" whileHover={{ scale: 1.05 }}
+            <motion.div className="card mb-3 bg-dark fs-5 border-0" whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }} >
                <div className="row no-gutters bg-dark"  data-aos="fade-right"    >
                  <div className="col-md-4 m-auto">
@@ -60,14 +60,14 @@ class Projetos extends React.Component {
                    <div className="card-body">
                      <h5 className="card-title">Trivia Quiz</h5>
                      <p className="card-text">Jogo de perguntas e respostas baseado no Show do milhão, com o objetivo de acessar uma API externa</p>
-                     <p className='a'> Tecnologias: Reactjs, JS, CSS,Context </p>
+                     <p className='a'> Tecnologias: Reactjs, JS, CSS, Context </p>
                    </div>
                  </div>
                </div>
             </motion.div>
           </Nav.Link>
           <Nav.Link href="https://github.com/caiopa/beatMusic" target="_blank">
-            <motion.div className="card mb-3 bg-dark fs-5" whileHover={{ scale: 1.05 }}
+            <motion.div className="card mb-3 bg-dark fs-5 border-0" whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}>
                <div className="row no-gutters bg-dark" data-aos="fade-left">
                  <div className="col-md-4 m-auto">
@@ -77,14 +77,14 @@ class Projetos extends React.Component {
                    <div className="card-body">
                      <h5 className="card-title">BeatMusic</h5>
                      <p className="card-text">Pagina de pesquisa de musica com o objetivo de acessar uma API externda do Itunes, favoritar as musicas </p>
-                      <p className='a'> Tecnologias: Reactjs, JS, react router,tailwindcss </p>
+                      <p className='a'> Tecnologias: Reactjs, JS, React Router, Tailwindcss </p>
                    </div>
                  </div>
                </div>
             </motion.div>
           </Nav.Link>
           <Nav.Link href="https://github.com/caiopa" target="_blank">
-            <motion.div className="card mb-3 bg-dark fs-5" whileHover={{ scale: 1.05 }}
+            <motion.div className="card mb-3 bg-dark fs-5 border-0" whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}>
               <div className="row no-gutters bg-dark" data-aos="fade-right" >
                <div className="col-md-4 img-fluid m-auto">

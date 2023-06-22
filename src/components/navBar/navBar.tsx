@@ -3,7 +3,7 @@ import "../header/header.css"
 import "../navBar/navBar.css"
 import menuImg from "../../images/menu.png"
 import menuCloseImg from "../../images/x2.png"
-import  'bootstrap'
+import 'bootstrap'
 import imgFechar from "../../images/fechar3.png"
 
 
@@ -48,13 +48,13 @@ verifyModal() {
           <nav  className=" d-none d-lg-flex navbar-expand-sm">
            <ul className="nav">
               <li className="nav-item">
-                <a href="#sobreMim" className="aa changeColor ms-3 text-danger fs-5 text-decoration-none nav-link">Sobre mim</a>
+                <a href="#sobreMim" className="ms-3 text text-info fs-5 text-decoration-none nav-link">Sobre mim</a>
               </li>
               <li className="nav-item">
-                <a href="#skills" className="nav-link aa changeColor mx-3 fs-5 text-danger text-decoration-none">Skills</a>
+                <a href="#skills" className="nav-link mx-3 fs-5 text text-info text-decoration-none">Skills</a>
               </li>
               <li className="nav-item">
-                <a href="#projetos" className="changeColor aa nav-link text-danger fs-5 text-decoration-non">Projetos</a>
+                <a href="#projetos" className="nav-link text text-info fs-5 text-decoration-non">Projetos</a>
               </li>
             </ul> 
           </nav>
@@ -65,10 +65,10 @@ verifyModal() {
             (
               <div data-aos="zoom-out-down" id="modal" className='dialog d-flex flex-column justify-content-between'> 
                 <nav className='mt-3 d-flex flex-column'>
-                   <a className="aa fs-5" href="#inicio" >Inicio</a>
-                   <a className="aa fs-5" href="#sobreMim" >Sobre mim</a>
-                   <a className="aa fs-5" href="#skills">Skills</a>
-                   <a className="aa fs-5" href="#projetos">
+                   <a className="fs-5" href="#inicio" >Inicio</a>
+                   <a className="fs-5" href="#sobreMim" >Sobre mim</a>
+                   <a className="fs-5" href="#skills">Skills</a>
+                   <a className="fs-5" href="#projetos">
                      Projetos
                    </a>
                 </nav>

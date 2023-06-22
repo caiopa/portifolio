@@ -9,10 +9,11 @@
     max-width: 50px;
     background-color: white;
     border-radius: 50%;
+
 }
 
 .imagemContato:hover {
-    background-image: linear-gradient(to right, red, blue);
+    background-image: linear-gradient(to right, cyan, white);
 }
 
 

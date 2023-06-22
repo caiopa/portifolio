@@ -13,7 +13,7 @@
 }
 
 .borderHeader {
-    background-image: linear-gradient(to right, blue, red, blue);
+    background-image: linear-gradient(to right, cyan, white, cyan);
     background-position: bottom;
     background-size: 100% 3px ;
     background-repeat: no-repeat;

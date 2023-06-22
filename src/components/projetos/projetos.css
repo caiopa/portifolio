@@ -5,13 +5,8 @@
   }
 
 
-
 .a {
-  background-image:linear-gradient(
-    to right,
-    rgba(255, 0, 0, 1),
-    rgb(238, 238, 238)
-);
+  background-image: linear-gradient(to right, blue, cyan);
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
