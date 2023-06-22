@@ -4,7 +4,9 @@ import "../navBar/navBar.css"
 import menuImg from "../../images/menu.png"
 import menuCloseImg from "../../images/x2.png"
 import 'bootstrap'
-import imgFechar from "../../images/fechar3.png"
+import ModalNav from '../modal/modal';
+import { render } from 'react-dom';
+
 
 
 interface showModal {
@@ -19,16 +21,13 @@ class NavBar extends React.Component<{}, showModal> {
       showModal: false,
     }
 
-    this.handleShowModal = this.handleShowModal.bind(this);
-    this.handleCloseModal = this.handleCloseModal.bind(this);
+    this.handleChangeModal = this.handleChangeModal.bind(this);
+
   }
 
-  handleShowModal(): void {
-    this.setState({ showModal: true });
-  }
 
-  handleCloseModal() {
-    this.setState({ showModal: false });
+  handleChangeModal() {
+    this.setState({ showModal: !this.state.showModal });
   }
 
 verifyModal() {
@@ -59,24 +58,10 @@ verifyModal() {
             </ul> 
           </nav>
 
-          <button onClick={!showModal ? this.handleShowModal : this.handleCloseModal} type="button" className="btn text-info d-lg-none" ><img src={showModal ? menuCloseImg: menuImg} alt="img" /></button>
+          <button onClick={() => this.handleChangeModal()} type="button" className="btn text-info d-lg-none" ><img src={showModal ? menuCloseImg: menuImg} alt="img" /></button>
           {
-            showModal && 
-            (
-              <div data-aos="zoom-out-down" id="modal" className='dialog d-flex flex-column justify-content-between'> 
-                <nav className='mt-3 d-flex flex-column'>
-                   <a className="fs-5" href="#inicio" >Inicio</a>
-                   <a className="fs-5" href="#sobreMim" >Sobre mim</a>
-                   <a className="fs-5" href="#skills">Skills</a>
-                   <a className="fs-5" href="#projetos">
-                     Projetos
-                   </a>
-                </nav>
-                <footer className="w-100 d-flex justify-content-center">
-                  <button type="button" onClick={this.handleCloseModal} className="buttonClose w-100 text-white"><img src={imgFechar}alt="img fechar"></img></button>
-                </footer>
-               </div>
- )
+            showModal && <ModalNav onClose={this.handleChangeModal}/>
+ 
           }
       </div>
     )

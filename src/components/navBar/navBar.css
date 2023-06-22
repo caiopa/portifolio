@@ -1,22 +1,23 @@
-
-.bgdiv {
-  background-color: rgba(0, 0, 0, 0.0) !important;
-  border: none !important;
-}
-
 #modal {
-  background-color: rgba(23, 24, 26, 0.777);
-  width: 150px;
-  display: flex;
+  background-color: rgba(98, 111, 111, 0.555);
   height: 40vh;
-  z-index: 999;
-  overflow-y: auto;
-  position: absolute;
-  right: 22%;
+  min-width: 100vw;
+  position: fixed;
+  top: 25.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }
 
-.buttonClose {
-  background-color: transparent;
-  border: none;
 
+.modal-box {
+  height: 100%;
+  width: 200px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  border-radius: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
