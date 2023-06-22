@@ -1,19 +1,20 @@
 #modal {
   background-color: rgba(98, 111, 111, 0.555);
-  height: 40vh;
+  height: 88vh;
   min-width: 100vw;
   position: fixed;
-  top: 25.5%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
+  
 }
 
 
 .modal-box {
-  height: 100%;
-  width: 200px;
-  margin: 0 auto;
+  height: 50%;
+  width: 300px;
+  margin: 50px auto;
   background-color: white;
   display: flex;
   border-radius: 5%;
@@ -21,3 +22,32 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.custom-button {
+  /* outros estilos do botão */
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  margin-top: 50px;
+}
+
+.custom-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: cyan;
+  transition: width 0.3s ease;
+}
+
+.custom-link:hover::after {
+  width: 100%;
+}
+

@@ -5,7 +5,6 @@ import menuImg from "../../images/menu.png"
 import menuCloseImg from "../../images/x2.png"
 import 'bootstrap'
 import ModalNav from '../modal/modal';
-import { render } from 'react-dom';
 
 
 
