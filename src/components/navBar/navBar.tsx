@@ -14,7 +14,7 @@ interface showModal {
 
 
 class NavBar extends React.Component<{}, showModal> {
-  constructor() {
+  constructor({showModal: boolean = false}) {
     super({}) 
     this.state = {
       showModal: false,
@@ -29,14 +29,12 @@ class NavBar extends React.Component<{}, showModal> {
     this.setState({ showModal: !this.state.showModal });
   }
 
-verifyModal() {
-  const { showModal } = this.state
-  if(showModal) {
-    return (menuCloseImg)
-  } else {
-    return (menuImg)
+  verifyModal() {
+    const { showModal } = this.state;
+    const menuIcon = showModal ? menuCloseImg : menuImg;
+    return <img src={menuIcon} alt="img" />;
   }
-}
+  
 
 
   render() {
@@ -52,7 +50,7 @@ verifyModal() {
                 <a href="#skills" className="nav-link hover mx-3 fs-5 text text-white text-decoration-none">Skills</a>
               </li>
               <li className="nav-item">
-                <a href="#projetos" className="nav-link hover text text-white fs-5 text-decoration-non">Projetos</a>
+                <a href="#projetos" className="nav-link hover text text-white fs-5 text-decoration-none">Projetos</a>
               </li>
             </ul> 
           </nav>

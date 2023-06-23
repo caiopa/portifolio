@@ -9,8 +9,6 @@ import Inicio from "../components/inicio/inicio";
 import "./perfil.css"
 import Footer from '../components/footer/footer';
 
-
-
 class Perfil extends React.Component {
 
   render() {

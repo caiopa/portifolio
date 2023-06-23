@@ -8,8 +8,7 @@ import Typewriter from "typewriter-effect";
 
 class Inicio extends React.Component {
    
-  
-  render() {
+    render() {
       return (
         <section id="inicio" className="d-md-flex py-sm-5 min-vh-100 w-75 m-auto justify-content-md-around font-monospace">
             
