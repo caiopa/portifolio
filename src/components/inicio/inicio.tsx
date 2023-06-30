@@ -15,7 +15,7 @@ class Inicio extends React.Component {
 
             <div className="d-flex justify-content-center my-5 py-5 align-items-center">
                 <img src={profileImg} 
-                    className="perfil-img d-flex justify-content-center "
+                    className="perfil-img d-flex justify-content-center imgProfile "
                     alt="img-perfil"
                     data-aos="flip-left"
                     data-aos-duration="1500"/>
@@ -37,7 +37,7 @@ class Inicio extends React.Component {
 
                 </div>
                 <div data-aos="zoom-in">
-                    <p className="fs-5">Contatos:</p>
+                    <p className="fs-5 my-4">Contatos:</p>
                     <a href="https://www.linkedin.com/in/caiopantunes/" target="_blank" rel="noreferrer"><img src={linkedinImg}
                     className="imagemContato"
                     alt="linkedin"></img></a>

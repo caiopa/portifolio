@@ -1,8 +1,3 @@
-.perfil-img {
-    height: 300px;
-    
-}
-
 
 .imagemContato {
     max-width: 50px;
@@ -36,4 +31,40 @@
   a:hover::before {
     bottom: 0;
     height: 100%;
+  }
+
+  .imgProfile {
+    display:block;
+    min-width:300px;
+    max-height: 280px;
+
+    object-fit:;
+    /* 
+    
+     [clip-path coordinates]
+    
+      --A-F--
+     B|/   \|E    coord.
+      |\   /|       A(a/w, 0)
+      --C-D--       B(0, 50%)
+                    C(a/w, 100%)
+                    D(100% - a/w, 100%)
+                    E(100%, 50%)
+                    F(100% - a/w, 0)
+                  where a/w = 0.24999999999
+    */
+    --aw:24.99999999999%;
+    clip-path:polygon(
+      var(--aw) 0,
+      0 50%,
+      var(--aw) 100%,
+      calc(100% - var(--aw)) 100%,
+      100% 50%,
+      calc(100% - var(--aw)) 0
+    );
+  }
+    
+  .imgProfile:hover {
+    filter:drop-shadow(0 0 10px powderblue);
+    z-index:10;
   }
