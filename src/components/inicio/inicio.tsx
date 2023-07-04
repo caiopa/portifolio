@@ -49,7 +49,7 @@ class Inicio extends React.Component {
                     rel="noreferrer"><img src={emailImg}
                     className="imagemContato"
                     alt="email"></img></a>
-                    <p className='mt-3 fs-5'>Tel: +55 (24) 99978-0577</p>
+                    <p className='mt-3 fs-5 text-sm'>Tel: (24)99978-0577</p>
                 </div>
 
             </div>

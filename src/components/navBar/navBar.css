@@ -7,9 +7,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  
 }
-
 
 .modal-box {
   height: 50%;
@@ -23,7 +21,6 @@
   align-items: center;
 }
 
-
 .custom-button {
   /* outros estilos do botão */
   border: none;
@@ -36,10 +33,29 @@
   margin-top: 50px;
 }
 
-.custom-link::after {
-  content: '';
+.custom-button-close {
+  position: relative;
+}
+
+.custom-button-close::after {
+  content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s ease;
+}
+
+.custom-button-close:hover::after {
+  width: 100%;
+}
+
+.custom-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
   left: 0;
   width: 0;
   height: 2px;
@@ -50,4 +66,3 @@
 .custom-link:hover::after {
   width: 100%;
 }
-

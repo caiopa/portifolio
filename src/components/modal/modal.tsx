@@ -15,18 +15,18 @@ export default function ModalNav({ onClose }: any) {
           <a className="mb-4 hover custom-link text-black text-decoration-none nav-link" href="#inicio">
             Início
           </a>
-          <a className="mb-4 hover text-black text-decoration-none nav-link" href="#sobreMim">
+          <a className="mb-4 hover custom-link text-black text-decoration-none nav-link" href="#sobreMim">
             Sobre mim
           </a>
-          <a className="mb-4 hover text-black text-decoration-none nav-link" href="#skills">
+          <a className="mb-4 hover custom-link text-black text-decoration-none nav-link" href="#skills">
             Skills
           </a>
-          <a className="mb-4 hover text-black text-decoration-none nav-link" href="#projetos">
+          <a className="mb-4 hover custom-link text-black text-decoration-none nav-link" href="#projetos">
             Projetos
           </a>
         <div>
         <div className="mt-10px">
-          <button onClick={onClose} className="custom-button">
+          <button onClick={onClose} className="custom-button custom-button-close">
             Fechar
           </button>
         </div>
