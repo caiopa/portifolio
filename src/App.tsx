@@ -1,10 +1,17 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Perfil from './paginas/perfil';
 
 function App() {
+  const [clickRipple, setClickRipple] = useState<{
+    x: number;
+    y: number;
+    id: number;
+  } | null>(null);
+  const rippleId = useRef(0);
+
   useEffect(() => {
     AOS.init();
     const handleScroll = () => {
@@ -26,9 +33,29 @@ function App() {
     };
   }, []);
 
+  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
+    if (event.detail === 0) return;
+
+    rippleId.current += 1;
+    setClickRipple({
+      x: event.clientX,
+      y: event.clientY,
+      id: rippleId.current,
+    });
+  };
+
   return (
-    <main className="vh-100 text-white">
+    <main className="vh-100 text-white" onClick={handleClick}>
       <div className="scroll-progress"></div>
+      {clickRipple && (
+        <span
+          key={clickRipple.id}
+          className="click-ripple"
+          style={{ left: clickRipple.x, top: clickRipple.y }}
+          aria-hidden="true"
+          onAnimationEnd={() => setClickRipple(null)}
+        />
+      )}
       <Perfil />
     </main>
   );

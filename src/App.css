@@ -8,3 +8,38 @@
   z-index: 9999;
   transition: width 0.3s ease;
 }
+
+body,
+body * {
+  cursor: url("./imagens/cursor.svg") 3 2, auto !important;
+}
+
+input,
+textarea,
+[contenteditable="true"] {
+  cursor: text !important;
+}
+
+.click-ripple {
+  position: fixed;
+  z-index: 10000;
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgba(0, 234, 255, 0.9);
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 234, 255, 0.3);
+  pointer-events: none;
+  animation: click-ripple 600ms ease-out forwards;
+}
+
+@keyframes click-ripple {
+  0% {
+    transform: translate(-50%, -50%) scale(0.25);
+    opacity: 0.9;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}
