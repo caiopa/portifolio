@@ -4,7 +4,7 @@ https://portifolio-caiopa.vercel.app/
 
 ### Como executar
 
-Para rodar o projeto localmente e visualizar as mudanças:
+Para rodar o projeto localmente e visualizar:
 
 1. Instale as dependências:
 
