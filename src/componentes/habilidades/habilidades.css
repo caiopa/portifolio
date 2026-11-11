@@ -4,30 +4,25 @@
 }
 
 #skills li {
-    transform-style: preserve-3d;
+    position: relative;
+    transform-origin: center;
+    transition: transform 300ms cubic-bezier(0.2, 0.8, 0.2, 1), filter 300ms ease;
 }
 
 #skills li:hover {
-    animation: girar-habilidade 900ms ease-in-out;
-}
-
-@keyframes girar-habilidade {
-    0% {
-        transform: perspective(800px) rotateY(0deg);
-    }
-
-    50% {
-        transform: perspective(800px) rotateY(180deg) scale(1.08);
-    }
-
-    100% {
-        transform: perspective(800px) rotateY(360deg);
-    }
+    z-index: 1;
+    transform: translateY(-8px) scale(1.08) rotate(-3deg);
+    filter: drop-shadow(0 8px 10px rgba(0, 255, 255, 0.35));
 }
 
 @media (prefers-reduced-motion: reduce) {
+    #skills li {
+        transition: none;
+    }
+
     #skills li:hover {
-        animation: none;
+        transform: none;
+        filter: none;
     }
 }
 
