@@ -1,0 +1,31 @@
+.align-center {
+    text-align: center;
+}
+
+
+.letter {
+    display: inline-block;
+    transition: transform 0.3s ease-out;
+  }
+  
+.letter:hover {
+  transform: translateY(-10px);
+}
+
+.borderHeader {
+    background-image: linear-gradient(to right, cyan, white, cyan);
+    background-position: bottom;
+    background-size: 100% 1px ;
+    background-repeat: no-repeat;
+
+}
+
+header {
+  z-index: 1;
+  height: 70px;
+}
+
+.imageAvatar {
+  max-width: 40px;
+
+}
