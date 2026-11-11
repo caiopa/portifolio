@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../componentes/header/header';
+import Header from '../componentes/cabecalho/header';
 import Projetos from '../componentes/projetos/projetos';
-import Skills from '../componentes/skills/skills';
+import Skills from '../componentes/habilidades/skills';
 import SobreMim from '../componentes/sobre/sobre';
 import inicioImg from "../imagens/setas-cima.png";
 import Inicio from '../componentes/inicio/inicio';
 
 import "./perfil.css";
-import Footer from '../componentes/footer/footer';
+import Footer from '../componentes/rodape/footer';
 
 const Perfil: React.FC = () => {
   return (

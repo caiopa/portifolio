@@ -1,8 +1,8 @@
 import React from 'react';
-import "../header/header.css"
-import "../navBar/navBar.css"
-import menuImg from "../../images/menu.png"
-import menuCloseImg from "../../images/x2.png"
+import "../cabecalho/header.css"
+import "../barraNavegacao/navBar.css"
+import menuImg from "../../imagens/menu.png"
+import menuCloseImg from "../../imagens/x2.png"
 import 'bootstrap'
 import ModalNav from '../modal/modal';
 

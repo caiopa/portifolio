@@ -1,9 +1,9 @@
 import React from 'react';
 import "./inicio.css"
-import profileImg from "../../images/eu123.png"
-import linkedinImg from "../../images/linkedin.png"
-import github from "../../images/github.png"
-import emailImg from "../../images/blackemail.png"
+import profileImg from "../../imagens/eu123.png"
+import linkedinImg from "../../imagens/linkedin.png"
+import github from "../../imagens/github.png"
+import emailImg from "../../imagens/blackemail.png"
 import Typewriter from "typewriter-effect";
 
 class Inicio extends React.Component {

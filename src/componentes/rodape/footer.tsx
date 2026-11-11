@@ -1,6 +1,6 @@
 import React from 'react';
 import "./footer.css"
-import coracaoImg from "../../images/gifheart.gif"
+import coracaoImg from "../../imagens/gifheart.gif"
 class Footer extends React.Component {
    
   

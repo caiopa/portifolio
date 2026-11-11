@@ -1,12 +1,12 @@
 import React from 'react';
-import cssImg from '../../images2/css3.svg';
-import htmlImg from '../../images2/html-5.svg';
-import jsImg from '../../images2/js.svg';
-import nodejsImg from '../../images2/node.svg';
-import pythonImg from '../../images2/py.svg';
-import reactImg from '../../images2/react.svg';
-import sqlImg from '../../images2/mysql.svg';
-import tsImg from '../../images2/ts.svg';
+import cssImg from '../../imagens2/css3.svg';
+import htmlImg from '../../imagens2/html-5.svg';
+import jsImg from '../../imagens2/js.svg';
+import nodejsImg from '../../imagens2/node.svg';
+import pythonImg from '../../imagens2/py.svg';
+import reactImg from '../../imagens2/react.svg';
+import sqlImg from '../../imagens2/mysql.svg';
+import tsImg from '../../imagens2/ts.svg';
 import "./skills.css"
 
 

@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Perfil from './pages/perfil';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Perfil from './paginas/perfil';
 
 function App() {
   useEffect(() => {
+    AOS.init();
     const handleScroll = () => {
       const progressBar = document.querySelector('.scroll-progress') as HTMLElement;
       const maxScrollHeight = document.documentElement.scrollHeight - window.innerHeight;

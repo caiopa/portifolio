@@ -1,9 +1,9 @@
 import React from 'react';
-import NavBar from '../navBar/navBar';
+import NavBar from '../barraNavegacao/navBar';
 import './header.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import avaImg from "../../images/avatar.gif"
+import avaImg from "../../imagens/avatar.gif"
 import Draggable from 'react-draggable';
 AOS.init();
 

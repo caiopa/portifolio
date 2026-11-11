@@ -1,9 +1,9 @@
 import React from 'react';
-import deliveryImg from '../../images/projeto-delivery.png';
-import receitasImg from '../../images/projeto-receitas.jpg';
-import ecommerce from '../../images/ecommerce.png';
-import githubImg from '../../images/GitHub2.jpg'
-import musicIcon from '../../images/icon3.png';
+import deliveryImg from '../../imagens/projeto-delivery.png';
+import receitasImg from '../../imagens/projeto-receitas.jpg';
+import ecommerce from '../../imagens/ecommerce.png';
+import githubImg from '../../imagens/GitHub2.jpg'
+import musicIcon from '../../imagens/icon3.png';
 import { motion } from "framer-motion";
 import './projetos.css'
 import { Nav } from 'react-bootstrap';
