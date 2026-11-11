@@ -19,7 +19,7 @@ export default function ModalNav({ onClose }: any) {
             Sobre mim
           </a>
           <a className="mb-4 hover custom-link text-black text-decoration-none nav-link" href="#skills">
-            Skills
+            Habilidades
           </a>
           <a className="mb-4 hover custom-link text-black text-decoration-none nav-link" href="#projetos">
             Projetos

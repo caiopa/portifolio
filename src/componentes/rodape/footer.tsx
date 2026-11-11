@@ -1,5 +1,5 @@
 import React from 'react';
-import "./footer.css"
+import "./rodape.css"
 import coracaoImg from "../../imagens/gifheart.gif"
 class Footer extends React.Component {
    

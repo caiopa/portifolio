@@ -1,0 +1,49 @@
+.skillsImg {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#skills li {
+    transform-style: preserve-3d;
+}
+
+#skills li:hover {
+    animation: girar-habilidade 900ms ease-in-out;
+}
+
+@keyframes girar-habilidade {
+    0% {
+        transform: perspective(800px) rotateY(0deg);
+    }
+
+    50% {
+        transform: perspective(800px) rotateY(180deg) scale(1.08);
+    }
+
+    100% {
+        transform: perspective(800px) rotateY(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #skills li:hover {
+        animation: none;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    flex-wrap: wrap;
+    padding: 0 !important;
+}
+
+#skills .titulo-habilidades {
+    background-image: linear-gradient(to right, blue, cyan);
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

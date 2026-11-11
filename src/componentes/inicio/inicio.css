@@ -34,11 +34,11 @@
   }
 
   .imgProfile {
-    display:block;
-    min-width:300px;
-    max-height: 280px;
-
-    object-fit:;
+    display: block;
+    width: auto;
+    height: min(280px, 60vh);
+    max-width: 100%;
+    object-fit: contain;
     /* 
     
      [clip-path coordinates]
